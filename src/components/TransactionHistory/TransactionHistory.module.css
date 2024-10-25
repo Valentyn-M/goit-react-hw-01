@@ -1,0 +1,29 @@
+.table,
+.header-cell,
+.body-cell {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+.header-cell,
+.body-cell {
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.body-cell:first-child {
+	text-align: left;
+	padding-left: 10px;
+	text-transform: capitalize;
+}
+
+.header-row {
+	background-color: #2A2A2A;
+	color: #fff;
+}
+
+.body-row:nth-child(even) {
+	background-color: #D3D3D3;
+	/* Светло-серый цвет фона для четных строк */
+}
